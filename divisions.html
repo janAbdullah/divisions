@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>divisions</title>
+<style>
+#parent{border:2px solid red;;height:700px;width:80%;margin:auto;background-color:pink;}
+.child1{background-color:blue;height:10%;width:90%;margin:auto;}
+.child2{background-color:green;height:2r0%;width:90;margin:auto;border-radius:50px;}
+.sub1{width:80%;height:30%;background-color:orange;margin:auto;border-radius:50px;}
+.minisub1{width:80%;height:70%;background-color:blue;margin:auto;border-radius:50px;}
+.microsub1{width:80%;height:70%;background-color:black;margin:auto;border-radius:50px;}
+.child3{background-color:blue;height:10%;width:90%;margin:auto;}
+.sub2{width:80%;height:30%;background-color:orange;margin:auto;border-radius:50px;}
+.minisub2{width:80%;height:70%;background-color:blue;margin:auto;border-radius:50px;}
+.microsub2{width:80%;height:70%;background-color:black;margin:auto;border-radius:50px;}
+.child4{background-color:red;height:20%;width:60%;border-radius:30px;margin:auto;}
+.sub3{width:80%;height:90%;background-color:yellow;margin:auto;clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);}
+.minisub3{width:80%;height:80%;background-color:green;margin:auto;clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);}
+.microsub3{width:80%;height:70%;background-color:black;margin:auto;clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);}
+.sub0{width:30%;height:70%;background-color:orange;clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);}
+.mini0{width:30%;height:70%;background-color:orange;clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);margin:0 0 0 800; }
+
+
+</style>
+</head>
+<body>
+<div id="parent">
+<div class="child1"><div class="sub0"></div><div class="mini0"></div></div>
+<div class="child2">
+<div class="sub1">
+<div class="minisub1"><div class="microsub1"></div>
+</div>
+</div>
+<div class="sub2"><div class="minisub2"><div class="microsub2"></div></div></div>
+
+</div>
+
+<div class="child3"></div>
+<div class="child4"> <div class="sub3"><div class="minisub3"><div class="microsub3"></div></div></div></div>
+<div class="child5"></div>
+</div>
+
+
+</body></html>
